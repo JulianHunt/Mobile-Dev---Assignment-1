@@ -1,5 +1,5 @@
 //
-//  main.m
+//  DepositTransaction.h
 //  Assignment 1
 //
 //  Created by Julian Hunt on 2/8/2014.
@@ -8,14 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Transaction.h"
-#import "BankAccount.h"
-int main(int argc, const char * argv[])
-{
+@interface DepositTransaction: Transaction
 
-    @autoreleasepool {
-        
-        
-    }
-    return 0;
-}
-
+@end

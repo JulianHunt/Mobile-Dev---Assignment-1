@@ -7,10 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90D38FB18AA9A2F000B06ED /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875618A6B30E00ED56DF /* BankAccount.m */; };
+		B90D38FD18AA9A2F000B06ED /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875918A6B31600ED56DF /* Transaction.m */; };
+		B90D38FF18AA9A2F000B06ED /* DepositTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875C18A6B3D000ED56DF /* DepositTransaction.m */; };
+		B90D390118AA9A2F000B06ED /* WithdrawTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875F18A6B3D800ED56DF /* WithdrawTransaction.m */; };
+		B90D390318AA9A2F000B06ED /* CheckTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3876218A6B3E600ED56DF /* CheckTransaction.m */; };
 		B9E3874818A6ADFD00ED56DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E3874718A6ADFD00ED56DF /* Foundation.framework */; };
 		B9E3874B18A6ADFD00ED56DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3874A18A6ADFD00ED56DF /* main.m */; };
 		B9E3874F18A6ADFD00ED56DF /* Assignment_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9E3874E18A6ADFD00ED56DF /* Assignment_1.1 */; };
+		B9E3875718A6B30E00ED56DF /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875618A6B30E00ED56DF /* BankAccount.m */; };
+		B9E3875A18A6B31600ED56DF /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875918A6B31600ED56DF /* Transaction.m */; };
+		B9E3875D18A6B3D000ED56DF /* DepositTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875C18A6B3D000ED56DF /* DepositTransaction.m */; };
+		B9E3876018A6B3D800ED56DF /* WithdrawTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3875F18A6B3D800ED56DF /* WithdrawTransaction.m */; };
+		B9E3876318A6B3E600ED56DF /* CheckTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3876218A6B3E600ED56DF /* CheckTransaction.m */; };
+		B9E3876A18A6C01600ED56DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E3876918A6C01600ED56DF /* XCTest.framework */; };
+		B9E3877018A6C01600ED56DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9E3876E18A6C01600ED56DF /* InfoPlist.strings */; };
+		B9E3877218A6C01600ED56DF /* Assignment_1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3877118A6C01600ED56DF /* Assignment_1_Tests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E3877418A6C01600ED56DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E3873C18A6ADFD00ED56DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E3874318A6ADFD00ED56DF;
+			remoteInfo = "Assignment 1";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B9E3874218A6ADFD00ED56DF /* CopyFiles */ = {
@@ -31,6 +54,22 @@
 		B9E3874A18A6ADFD00ED56DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9E3874D18A6ADFD00ED56DF /* Assignment 1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment 1-Prefix.pch"; sourceTree = "<group>"; };
 		B9E3874E18A6ADFD00ED56DF /* Assignment_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Assignment_1.1; sourceTree = "<group>"; };
+		B9E3875518A6B30E00ED56DF /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		B9E3875618A6B30E00ED56DF /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		B9E3875818A6B31600ED56DF /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		B9E3875918A6B31600ED56DF /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		B9E3875B18A6B3D000ED56DF /* DepositTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositTransaction.h; sourceTree = "<group>"; };
+		B9E3875C18A6B3D000ED56DF /* DepositTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepositTransaction.m; sourceTree = "<group>"; };
+		B9E3875E18A6B3D800ED56DF /* WithdrawTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithdrawTransaction.h; sourceTree = "<group>"; };
+		B9E3875F18A6B3D800ED56DF /* WithdrawTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithdrawTransaction.m; sourceTree = "<group>"; };
+		B9E3876118A6B3E600ED56DF /* CheckTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTransaction.h; sourceTree = "<group>"; };
+		B9E3876218A6B3E600ED56DF /* CheckTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTransaction.m; sourceTree = "<group>"; };
+		B9E3876818A6C01600ED56DF /* Assignment 1 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 1 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E3876918A6C01600ED56DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9E3876D18A6C01600ED56DF /* Assignment 1 Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment 1 Tests-Info.plist"; sourceTree = "<group>"; };
+		B9E3876F18A6C01600ED56DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9E3877118A6C01600ED56DF /* Assignment_1_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_1_Tests.m; sourceTree = "<group>"; };
+		B9E3877318A6C01600ED56DF /* Assignment 1 Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment 1 Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +81,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9E3876518A6C01600ED56DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E3876A18A6C01600ED56DF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B9E3874918A6ADFD00ED56DF /* Assignment 1 */,
+				B9E3876B18A6C01600ED56DF /* Assignment 1 Tests */,
 				B9E3874618A6ADFD00ED56DF /* Frameworks */,
 				B9E3874518A6ADFD00ED56DF /* Products */,
 			);
@@ -58,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B9E3874418A6ADFD00ED56DF /* Assignment 1 */,
+				B9E3876818A6C01600ED56DF /* Assignment 1 Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				B9E3874718A6ADFD00ED56DF /* Foundation.framework */,
+				B9E3876918A6C01600ED56DF /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,6 +124,16 @@
 			isa = PBXGroup;
 			children = (
 				B9E3874A18A6ADFD00ED56DF /* main.m */,
+				B9E3875518A6B30E00ED56DF /* BankAccount.h */,
+				B9E3875618A6B30E00ED56DF /* BankAccount.m */,
+				B9E3875818A6B31600ED56DF /* Transaction.h */,
+				B9E3875918A6B31600ED56DF /* Transaction.m */,
+				B9E3875B18A6B3D000ED56DF /* DepositTransaction.h */,
+				B9E3875C18A6B3D000ED56DF /* DepositTransaction.m */,
+				B9E3875E18A6B3D800ED56DF /* WithdrawTransaction.h */,
+				B9E3875F18A6B3D800ED56DF /* WithdrawTransaction.m */,
+				B9E3876118A6B3E600ED56DF /* CheckTransaction.h */,
+				B9E3876218A6B3E600ED56DF /* CheckTransaction.m */,
 				B9E3874E18A6ADFD00ED56DF /* Assignment_1.1 */,
 				B9E3874C18A6ADFD00ED56DF /* Supporting Files */,
 			);
@@ -84,6 +144,25 @@
 			isa = PBXGroup;
 			children = (
 				B9E3874D18A6ADFD00ED56DF /* Assignment 1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9E3876B18A6C01600ED56DF /* Assignment 1 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3877118A6C01600ED56DF /* Assignment_1_Tests.m */,
+				B9E3876C18A6C01600ED56DF /* Supporting Files */,
+			);
+			path = "Assignment 1 Tests";
+			sourceTree = "<group>";
+		};
+		B9E3876C18A6C01600ED56DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3876D18A6C01600ED56DF /* Assignment 1 Tests-Info.plist */,
+				B9E3876E18A6C01600ED56DF /* InfoPlist.strings */,
+				B9E3877318A6C01600ED56DF /* Assignment 1 Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +187,24 @@
 			productReference = B9E3874418A6ADFD00ED56DF /* Assignment 1 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B9E3876718A6C01600ED56DF /* Assignment 1 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E3877618A6C01600ED56DF /* Build configuration list for PBXNativeTarget "Assignment 1 Tests" */;
+			buildPhases = (
+				B9E3876418A6C01600ED56DF /* Sources */,
+				B9E3876518A6C01600ED56DF /* Frameworks */,
+				B9E3876618A6C01600ED56DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E3877518A6C01600ED56DF /* PBXTargetDependency */,
+			);
+			name = "Assignment 1 Tests";
+			productName = "Assignment 1 Tests";
+			productReference = B9E3876818A6C01600ED56DF /* Assignment 1 Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +213,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Julian Hunt";
+				TargetAttributes = {
+					B9E3876718A6C01600ED56DF = {
+						TestTargetID = B9E3874318A6ADFD00ED56DF;
+					};
+				};
 			};
 			buildConfigurationList = B9E3873F18A6ADFD00ED56DF /* Build configuration list for PBXProject "Assignment 1" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,20 +232,69 @@
 			projectRoot = "";
 			targets = (
 				B9E3874318A6ADFD00ED56DF /* Assignment 1 */,
+				B9E3876718A6C01600ED56DF /* Assignment 1 Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E3876618A6C01600ED56DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E3877018A6C01600ED56DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9E3874018A6ADFD00ED56DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E3875A18A6B31600ED56DF /* Transaction.m in Sources */,
+				B9E3875D18A6B3D000ED56DF /* DepositTransaction.m in Sources */,
 				B9E3874B18A6ADFD00ED56DF /* main.m in Sources */,
+				B9E3875718A6B30E00ED56DF /* BankAccount.m in Sources */,
+				B9E3876018A6B3D800ED56DF /* WithdrawTransaction.m in Sources */,
+				B9E3876318A6B3E600ED56DF /* CheckTransaction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E3876418A6C01600ED56DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90D38FB18AA9A2F000B06ED /* BankAccount.m in Sources */,
+				B90D38FD18AA9A2F000B06ED /* Transaction.m in Sources */,
+				B90D38FF18AA9A2F000B06ED /* DepositTransaction.m in Sources */,
+				B90D390118AA9A2F000B06ED /* WithdrawTransaction.m in Sources */,
+				B90D390318AA9A2F000B06ED /* CheckTransaction.m in Sources */,
+				B9E3877218A6C01600ED56DF /* Assignment_1_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E3877518A6C01600ED56DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E3874318A6ADFD00ED56DF /* Assignment 1 */;
+			targetProxy = B9E3877418A6C01600ED56DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9E3876E18A6C01600ED56DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E3876F18A6C01600ED56DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B9E3875018A6ADFD00ED56DF /* Debug */ = {
@@ -232,6 +383,40 @@
 			};
 			name = Release;
 		};
+		B9E3877718A6C01600ED56DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment 1 Tests/Assignment 1 Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Assignment 1 Tests/Assignment 1 Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B9E3877818A6C01600ED56DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment 1 Tests/Assignment 1 Tests-Prefix.pch";
+				INFOPLIST_FILE = "Assignment 1 Tests/Assignment 1 Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -251,6 +436,16 @@
 				B9E3875418A6ADFD00ED56DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E3877618A6C01600ED56DF /* Build configuration list for PBXNativeTarget "Assignment 1 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E3877718A6C01600ED56DF /* Debug */,
+				B9E3877818A6C01600ED56DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
